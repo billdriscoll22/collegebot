@@ -3,6 +3,8 @@ import numpy as np
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import Imputer
 
+#silly stub program for neil
+
 data = pd.read_csv('spreadsheet.csv', index_col = 0)
 X = data[['gpa', 'gender', 'first_gen', 'is_urm', 'sat']]
 y = data['status']
